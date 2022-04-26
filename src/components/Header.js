@@ -1,5 +1,5 @@
 import React from 'react';
-import images from '../ImportImages';
+import images from '../importImages';
 function Header() {
 	return (
 		<header className='header'>

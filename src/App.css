@@ -4,10 +4,18 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* border: 1px solid red; */
 }
 body {
 	margin: 0;
 	font-family: 'Inter', sans-serif;
+	color: #2b283a;
+}
+
+section {
+	padding: 2em;
 }
 .App {
 	text-align: center;
@@ -21,4 +29,70 @@ body {
 	justify-content: center;
 	padding: 1em;
 	gap: 0.5em;
+	margin-bottom: 1em;
+}
+
+.card {
+	display: flex;
+	border-bottom: 1px solid #918e9b;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.card--image {
+	width: 125px;
+	height: 170px;
+	border-radius: 5px;
+}
+.card--content {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 1em;
+}
+
+.card--content_location {
+	display: flex;
+	align-items: center;
+}
+.card--content_location-icon {
+	width: 0.5em;
+	height: 0.7em;
+	margin-right: 0.2em;
+}
+.card--content_location-country {
+	font-size: 0.75rem;
+	letter-spacing: 0.17em;
+	margin-right: 1em;
+}
+
+.card--content_location-maplink {
+	font-size: 0.75rem;
+	color: #918e9b;
+}
+.card--content_title {
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 30px;
+	margin-top: 0.2em;
+}
+.card--content_duration {
+	font-weight: 700;
+	font-size: 0.75rem;
+	margin: 1em 0;
+}
+.card--content_description {
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
+
+footer {
+	background-color: #f55a5a;
+	color: white;
+	padding: 1em;
+	margin-top: 3em;
+}
+footer a {
+	color: #2b283a;
+	text-decoration: none;
 }
