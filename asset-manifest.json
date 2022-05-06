@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nashitshayan.github.io/travel-journal/static/css/main.c2692941.css",
+    "main.js": "/nashitshayan.github.io/travel-journal/static/js/main.2c77c2fe.js",
+    "static/js/787.39019643.chunk.js": "/nashitshayan.github.io/travel-journal/static/js/787.39019643.chunk.js",
+    "static/media/header--logo.svg": "/nashitshayan.github.io/travel-journal/static/media/header--logo.10ddb4ca94ecf3a9f9b4.svg",
+    "index.html": "/nashitshayan.github.io/travel-journal/index.html",
+    "static/media/location-icon.svg": "/nashitshayan.github.io/travel-journal/static/media/location-icon.1f226562855444fb8b74.svg",
+    "main.c2692941.css.map": "/nashitshayan.github.io/travel-journal/static/css/main.c2692941.css.map",
+    "main.2c77c2fe.js.map": "/nashitshayan.github.io/travel-journal/static/js/main.2c77c2fe.js.map",
+    "787.39019643.chunk.js.map": "/nashitshayan.github.io/travel-journal/static/js/787.39019643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2692941.css",
+    "static/js/main.2c77c2fe.js"
+  ]
+}
